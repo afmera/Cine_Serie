@@ -1,0 +1,49 @@
+<main class="container">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <h2>Nuevo Libro!</h2>
+            <form id="frmCrear">
+                <div class="form-group">
+                    <label>Nombre:</label>
+                    <input type="text" class="form-control" 
+                           id="nombre" name="nombre" required/>
+                </div>
+                <div class="form-group">
+                    <label>Cantidad paginas:</label>
+                    <input type="number" class="form-control" 
+                           id="cantidadPaginas" name="cantidadPaginas" required/>
+                </div>
+                <div class="form-group">
+                    <label>Categoria:</label>
+                    <div id="contentCategoria"></div>
+                </div>
+                <div class="form-group">
+                    <label>Autores:</label>
+                    <select name="states" id="example" class="form-control"  multiple="multiple" style="display: none;">
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                        <option selected value="CA">California</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                    <button type="reset" class="btn btn-warning">Limpiar</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-12 alert alert-success hide" >
+            <strong>Success!</strong> <p></p>
+        </div>
+    </div>
+</main>
+<script src="appclient/libs/popper.min.js" type="text/javascript"></script>
+<script src="appclient/libs/Bootstrap-4-Multi-Select-BsMultiSelect/dist/js/BsMultiSelect.js" type="text/javascript"></script>
+<script src="appclient/js/crearLibro.js" type="text/javascript"></script>
+
+//https://www.jqueryscript.net/form/Bootstrap-4-Multi-Select-BsMultiSelect.html

@@ -1,0 +1,55 @@
+<!-- @author ANDRÉS FELIPE MERA TRÓCHEZ -->
+
+<nav class="navbar navbar-toggleable-md navbar-inverse 
+     navbar-expand-sm navbar-dark bg-success text-white 
+     fixed-top bg-custom-gradient-purple">
+    <a class="navbar-brand" href="?">Inicio</a>
+    <button class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" 
+         id="collapsibleNavbar">
+        <ul class="nav nav-pills"> 
+            <!-- Item -->
+            <li class='nav-item dropdown'>
+                <a class='nav-link dropdown-toggle text-white' 
+                   data-toggle='dropdown' href='#'>Contenidos</a>
+                <div class='dropdown-menu'>
+                    <a class='dropdown-item' href='?p=crearContenido'>Nuevo Contenido</a>
+                    <a class='dropdown-item' href='?p=listarContenido'>Lista de Contenidos</a>
+                </div>
+            </li> 
+            <!-- Item -->
+            <li class='nav-item dropdown'>
+                <a class='nav-link dropdown-toggle text-white' 
+                   data-toggle='dropdown' href='#'>Genero</a>
+                <div class='dropdown-menu'>
+                    <a class='dropdown-item' href='?p=crearGenero'>Nuevo Genero</a>
+                    <a class='dropdown-item' href='?p=listarGenero'>Lista de Genero</a>
+                </div>
+            </li> 
+            <!-- Item -->
+            <li class='nav-item dropdown'>
+                <a class='nav-link dropdown-toggle text-white' 
+                   data-toggle='dropdown' href='#'>Contenido y Genero</a>
+                <div class='dropdown-menu'>
+                    <a class='dropdown-item' href='?p=crearContenidoGenero'>Nuevo Contenido y Genero</a>
+                    <a class='dropdown-item' href='?p=listarContenidoGenero'>Lista de Contenido y Genero</a>
+                </div>
+            </li>
+            <!-- Item -->
+            <li class='nav-item dropdown'>
+                <a class='nav-link dropdown-toggle text-white' 
+                   data-toggle='dropdown' href='#'>Calificacion</a>
+                <div class='dropdown-menu'>
+                    <a class='dropdown-item' href='?p=crearFavorita'>Nuevo Calificacion</a>
+                    <a class='dropdown-item' href='?p=listarFavorita'>Lista de Calificacion</a>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+</nav>
